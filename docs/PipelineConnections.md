@@ -1,0 +1,12 @@
+# PipelineConnections
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **str** |  | [optional] 
+**stream_id** | **str** |  | [optional] 
+**pipeline_ids** | **list[str]** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
