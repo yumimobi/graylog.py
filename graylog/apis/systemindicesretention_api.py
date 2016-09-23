@@ -147,7 +147,7 @@ class SystemindicesretentionApi(object):
                                             callback=params.get('callback'),
                                             _return_http_data_only=params.get('_return_http_data_only'))
 
-    def config_0(self, , **kwargs):
+    def config_0(self, **kwargs):
         """
         Configuration of the current retention strategy
         This resource stores the configuration of the currently used retention strategy.
@@ -169,12 +169,12 @@ class SystemindicesretentionApi(object):
         """
         kwargs['_return_http_data_only'] = True
         if kwargs.get('callback'):
-            return self.config_0_with_http_info(, **kwargs)
+            return self.config_0_with_http_info(**kwargs)
         else:
-            (data) = self.config_0_with_http_info(, **kwargs)
+            (data) = self.config_0_with_http_info(**kwargs)
             return data
 
-    def config_0_with_http_info(self, , **kwargs):
+    def config_0_with_http_info(self, **kwargs):
         """
         Configuration of the current retention strategy
         This resource stores the configuration of the currently used retention strategy.
