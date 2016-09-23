@@ -60,7 +60,7 @@ class Configuration(object):
         Constructor
         """
         # Default Base url
-        self.host = "http://log.ano.yumimobi.com/api"
+        self.host = ""
         # Default api client
         self.api_client = None
         # Temp file folder for downloading files
